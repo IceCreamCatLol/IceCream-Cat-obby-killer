@@ -1,0 +1,321 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local spawn = Instance.new("TextButton")
+local drop = Instance.new("TextButton")
+local tptotools = Instance.new("TextButton")
+local dropall = Instance.new("TextButton")
+local tpall = Instance.new("TextButton")
+local next = Instance.new("TextButton")
+local page = Instance.new("TextLabel")
+local dupe = Instance.new("TextButton")
+local previous1 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.391402721, 0, 0.211382121, 0)
+Frame.Size = UDim2.new(0, 260, 0, 297)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.169230774, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 89, 0, 70)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=14725672182"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.319230765, 0, 0.0505050495, 0)
+TextLabel.Size = UDim2.new(0, 155, 0, 40)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "killer"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.212121218, 0)
+Frame_2.Size = UDim2.new(0, 260, 0, 7)
+
+spawn.Name = "spawn"
+spawn.Parent = Frame
+spawn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+spawn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+spawn.BorderSizePixel = 0
+spawn.Position = UDim2.new(0.057692308, 0, 0.289562285, 0)
+spawn.Size = UDim2.new(0, 88, 0, 34)
+spawn.Visible = false
+spawn.Font = Enum.Font.SourceSans
+spawn.Text = "spawn"
+spawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+spawn.TextScaled = true
+spawn.TextSize = 14.000
+spawn.TextWrapped = true
+
+drop.Name = "drop"
+drop.Parent = Frame
+drop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+drop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+drop.BorderSizePixel = 0
+drop.Position = UDim2.new(0.550000012, 0, 0.289562285, 0)
+drop.Size = UDim2.new(0, 88, 0, 34)
+drop.Font = Enum.Font.SourceSans
+drop.Text = "drop"
+drop.TextColor3 = Color3.fromRGB(255, 255, 255)
+drop.TextScaled = true
+drop.TextSize = 14.000
+drop.TextWrapped = true
+
+tptotools.Name = "tp to tools"
+tptotools.Parent = Frame
+tptotools.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tptotools.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tptotools.BorderSizePixel = 0
+tptotools.Position = UDim2.new(0.057692308, 0, 0.501683474, 0)
+tptotools.Size = UDim2.new(0, 88, 0, 34)
+tptotools.Font = Enum.Font.SourceSans
+tptotools.Text = "tp to tool"
+tptotools.TextColor3 = Color3.fromRGB(255, 255, 255)
+tptotools.TextScaled = true
+tptotools.TextSize = 14.000
+tptotools.TextWrapped = true
+
+dropall.Name = "drop all"
+dropall.Parent = Frame
+dropall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dropall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dropall.BorderSizePixel = 0
+dropall.Position = UDim2.new(0.550000012, 0, 0.501683474, 0)
+dropall.Size = UDim2.new(0, 88, 0, 34)
+dropall.Font = Enum.Font.SourceSans
+dropall.Text = "drop all your tools"
+dropall.TextColor3 = Color3.fromRGB(255, 255, 255)
+dropall.TextScaled = true
+dropall.TextSize = 14.000
+dropall.TextWrapped = true
+
+tpall.Name = "tp all"
+tpall.Parent = Frame
+tpall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tpall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tpall.BorderSizePixel = 0
+tpall.Position = UDim2.new(0.057692308, 0, 0.710437715, 0)
+tpall.Size = UDim2.new(0, 88, 0, 34)
+tpall.Font = Enum.Font.SourceSans
+tpall.Text = "tp to all tools"
+tpall.TextColor3 = Color3.fromRGB(255, 255, 255)
+tpall.TextScaled = true
+tpall.TextSize = 14.000
+tpall.TextWrapped = true
+
+next.Name = "next"
+next.Parent = Frame
+next.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+next.BorderColor3 = Color3.fromRGB(0, 0, 0)
+next.BorderSizePixel = 0
+next.Position = UDim2.new(0.550000012, 0, 0.710437715, 0)
+next.Size = UDim2.new(0, 88, 0, 34)
+next.Font = Enum.Font.SourceSans
+next.Text = "next page"
+next.TextColor3 = Color3.fromRGB(255, 255, 255)
+next.TextScaled = true
+next.TextSize = 14.000
+next.TextWrapped = true
+
+page.Name = "page"
+page.Parent = Frame
+page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+page.BackgroundTransparency = 1.000
+page.BorderColor3 = Color3.fromRGB(0, 0, 0)
+page.BorderSizePixel = 0
+page.Position = UDim2.new(0.0115384618, 0, 0.898989916, 0)
+page.Size = UDim2.new(0, 100, 0, 30)
+page.Font = Enum.Font.SourceSans
+page.Text = "duper & flooder"
+page.TextColor3 = Color3.fromRGB(0, 0, 0)
+page.TextScaled = true
+page.TextSize = 14.000
+page.TextWrapped = true
+
+dupe.Name = "dupe"
+dupe.Parent = Frame
+dupe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dupe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dupe.BorderSizePixel = 0
+dupe.Position = UDim2.new(0.057692308, 0, 0.289562285, 0)
+dupe.Size = UDim2.new(0, 88, 0, 34)
+dupe.Font = Enum.Font.SourceSans
+dupe.Text = "dupe"
+dupe.TextColor3 = Color3.fromRGB(255, 255, 255)
+dupe.TextScaled = true
+dupe.TextSize = 14.000
+dupe.TextWrapped = true
+
+previous1.Name = "previous1"
+previous1.Parent = Frame
+previous1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+previous1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+previous1.BorderSizePixel = 0
+previous1.Position = UDim2.new(0.057692308, 0, 0.710437715, 0)
+previous1.Size = UDim2.new(0, 88, 0, 34)
+previous1.Visible = false
+previous1.Font = Enum.Font.SourceSans
+previous1.Text = "previous page"
+previous1.TextColor3 = Color3.fromRGB(255, 255, 255)
+previous1.TextScaled = true
+previous1.TextSize = 14.000
+previous1.TextWrapped = true
+
+-- Scripts:
+
+local function GFWP_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	t = script.Parent
+	t.Draggable = true
+	t.Archivable = true
+	t.Active = true
+end
+coroutine.wrap(GFWP_fake_script)()
+local function RKKPYII_fake_script() -- spawn.LocalScript 
+	local script = Instance.new('LocalScript', spawn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91, 3, -26)
+	end)
+end
+coroutine.wrap(RKKPYII_fake_script)()
+local function MFSJSBL_fake_script() -- drop.LocalScript 
+	local script = Instance.new('LocalScript', drop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
+	end)
+end
+coroutine.wrap(MFSJSBL_fake_script)()
+local function BZZBHF_fake_script() -- tptotools.local 
+	local script = Instance.new('LocalScript', tptotools)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local tool = game.Workspace:FindFirstChildOfClass("Tool")
+		if tool then -- Проверяем, нашли ли мы инструмент
+			local position = tool.Handle.CFrame.Position -- Получаем позицию ручки инструмента
+			local torso = game.Players.LocalPlayer.Character.Humanoid.Torso
+			torso.CFrame = CFrame.new(position) -- Устанавливаем позицию торса
+		end
+	end)
+	
+end
+coroutine.wrap(BZZBHF_fake_script)()
+local function LFUGZG_fake_script() -- dropall.LocalScript 
+	local script = Instance.new('LocalScript', dropall)
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			local tool = game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+			if tool then
+				game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
+				wait(0.1)
+			else
+				break
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(LFUGZG_fake_script)()
+local function LXAYIN_fake_script() -- tpall.local 
+	local script = Instance.new('LocalScript', tpall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			local tool = game.Workspace:FindFirstChildOfClass("Tool")
+			local position = tool.Handle.CFrame.Position -- Получаем позицию ручки инструмента
+			local torso = game.Players.LocalPlayer.Character.Humanoid.Torso
+			if tool then
+				tool = game.Workspace:FindFirstChildOfClass("Tool")
+				position = tool.Handle.CFrame.Position -- Получаем позицию ручки инструмента
+				torso.CFrame = CFrame.new(position) -- Устанавливаем позицию торса
+				wait(0.1)
+			else
+				break
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(LXAYIN_fake_script)()
+local function QAZF_fake_script() -- next.local 
+	local script = Instance.new('LocalScript', next)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["tp all"].Visible = false
+		script.Parent.Parent.drop.Visible = false
+		script.Parent.Parent["drop all"].Visible = false
+		script.Parent.Parent.dupe.Visible = false
+		script.Parent.Parent["tp to tools"].Visible = false
+		script.Parent.Parent.page.Text = "Attack"
+		script.Parent.Visible = false
+		script.Parent.Parent.previous1.Visible = true
+	end)
+	
+end
+coroutine.wrap(QAZF_fake_script)()
+local function PGWXJ_fake_script() -- dupe.LocalScript 
+	local script = Instance.new('LocalScript', dupe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
+		game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
+		game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
+		if game.Players.LocalPlayer.Character then
+			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+		end
+	end)
+end
+coroutine.wrap(PGWXJ_fake_script)()
+local function XAKTZ_fake_script() -- previous1.local 
+	local script = Instance.new('LocalScript', previous1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["tp all"].Visible = true
+		script.Parent.Parent.drop.Visible = true
+		script.Parent.Parent.page.Text = "duper & flooder"
+		script.Parent.Parent["drop all"].Visible = true
+		script.Parent.Parent.dupe.Visible = true
+		script.Parent.Parent["tp to tools"].Visible = true
+		script.Parent.Visible = false
+		script.Parent.Parent.next.Visible = true
+	end)
+	
+end
+coroutine.wrap(XAKTZ_fake_script)()
