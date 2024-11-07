@@ -293,10 +293,6 @@ local function PGWXJ_fake_script() -- dupe.LocalScript
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
 		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
-		game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
-		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
-		game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
-		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
 		if game.Players.LocalPlayer.Character then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
 		end
