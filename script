@@ -13,10 +13,17 @@ local drop = Instance.new("TextButton")
 local tptotools = Instance.new("TextButton")
 local dropall = Instance.new("TextButton")
 local tpall = Instance.new("TextButton")
-local next = Instance.new("TextButton")
+local next1 = Instance.new("TextButton")
 local page = Instance.new("TextLabel")
 local dupe = Instance.new("TextButton")
 local previous1 = Instance.new("TextButton")
+local chatspy = Instance.new("TextButton")
+local ddos = Instance.new("TextButton")
+local lagger = Instance.new("TextButton")
+local chatspy_2 = Instance.new("TextButton")
+local blur = Instance.new("TextButton")
+local lag2 = Instance.new("TextButton")
+local next2 = Instance.new("TextButton")
 
 --Properties:
 
@@ -131,19 +138,19 @@ tpall.TextScaled = true
 tpall.TextSize = 14.000
 tpall.TextWrapped = true
 
-next.Name = "next"
-next.Parent = Frame
-next.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-next.BorderColor3 = Color3.fromRGB(0, 0, 0)
-next.BorderSizePixel = 0
-next.Position = UDim2.new(0.550000012, 0, 0.710437715, 0)
-next.Size = UDim2.new(0, 88, 0, 34)
-next.Font = Enum.Font.SourceSans
-next.Text = "next page"
-next.TextColor3 = Color3.fromRGB(255, 255, 255)
-next.TextScaled = true
-next.TextSize = 14.000
-next.TextWrapped = true
+next1.Name = "next1"
+next1.Parent = Frame
+next1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+next1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+next1.BorderSizePixel = 0
+next1.Position = UDim2.new(0.550000012, 0, 0.710437715, 0)
+next1.Size = UDim2.new(0, 88, 0, 34)
+next1.Font = Enum.Font.SourceSans
+next1.Text = "next page"
+next1.TextColor3 = Color3.fromRGB(255, 255, 255)
+next1.TextScaled = true
+next1.TextSize = 14.000
+next1.TextWrapped = true
 
 page.Name = "page"
 page.Parent = Frame
@@ -189,9 +196,113 @@ previous1.TextScaled = true
 previous1.TextSize = 14.000
 previous1.TextWrapped = true
 
+chatspy.Name = "chat spy"
+chatspy.Parent = Frame
+chatspy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+chatspy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+chatspy.BorderSizePixel = 0
+chatspy.Position = UDim2.new(0.550000012, 0, 0.289562285, 0)
+chatspy.Size = UDim2.new(0, 88, 0, 34)
+chatspy.Visible = false
+chatspy.Font = Enum.Font.SourceSans
+chatspy.Text = "chat spy"
+chatspy.TextColor3 = Color3.fromRGB(255, 255, 255)
+chatspy.TextScaled = true
+chatspy.TextSize = 14.000
+chatspy.TextWrapped = true
+
+ddos.Name = "ddos"
+ddos.Parent = Frame
+ddos.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ddos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ddos.BorderSizePixel = 0
+ddos.Position = UDim2.new(0.057692308, 0, 0.289562285, 0)
+ddos.Size = UDim2.new(0, 88, 0, 34)
+ddos.Visible = false
+ddos.Font = Enum.Font.SourceSans
+ddos.Text = "chat DDoS"
+ddos.TextColor3 = Color3.fromRGB(255, 255, 255)
+ddos.TextScaled = true
+ddos.TextSize = 14.000
+ddos.TextWrapped = true
+
+lagger.Name = "lagger"
+lagger.Parent = Frame
+lagger.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lagger.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lagger.BorderSizePixel = 0
+lagger.Position = UDim2.new(0.057692308, 0, 0.501683474, 0)
+lagger.Size = UDim2.new(0, 88, 0, 34)
+lagger.Visible = false
+lagger.Font = Enum.Font.SourceSans
+lagger.Text = "DDoS 2 (lag chat)"
+lagger.TextColor3 = Color3.fromRGB(255, 255, 255)
+lagger.TextScaled = true
+lagger.TextSize = 14.000
+lagger.TextWrapped = true
+
+chatspy_2.Name = "chat spy"
+chatspy_2.Parent = Frame
+chatspy_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+chatspy_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+chatspy_2.BorderSizePixel = 0
+chatspy_2.Position = UDim2.new(0.550000012, 0, 0.289562285, 0)
+chatspy_2.Size = UDim2.new(0, 88, 0, 34)
+chatspy_2.Visible = false
+chatspy_2.Font = Enum.Font.SourceSans
+chatspy_2.Text = "chat spy"
+chatspy_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+chatspy_2.TextScaled = true
+chatspy_2.TextSize = 14.000
+chatspy_2.TextWrapped = true
+
+blur.Name = "blur"
+blur.Parent = Frame
+blur.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+blur.BorderColor3 = Color3.fromRGB(0, 0, 0)
+blur.BorderSizePixel = 0
+blur.Position = UDim2.new(0.726923048, 0, 0.902356923, 0)
+blur.Size = UDim2.new(0, 71, 0, 29)
+blur.Font = Enum.Font.SourceSans
+blur.Text = "delete blue (anti admin)"
+blur.TextColor3 = Color3.fromRGB(255, 255, 255)
+blur.TextScaled = true
+blur.TextSize = 14.000
+blur.TextWrapped = true
+
+lag2.Name = "lag2"
+lag2.Parent = Frame
+lag2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lag2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lag2.BorderSizePixel = 0
+lag2.Position = UDim2.new(0.550000012, 0, 0.501683474, 0)
+lag2.Size = UDim2.new(0, 88, 0, 34)
+lag2.Visible = false
+lag2.Font = Enum.Font.SourceSans
+lag2.Text = "DDoS 3 (lag chat)"
+lag2.TextColor3 = Color3.fromRGB(255, 255, 255)
+lag2.TextScaled = true
+lag2.TextSize = 14.000
+lag2.TextWrapped = true
+
+next2.Name = "next2"
+next2.Parent = Frame
+next2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+next2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+next2.BorderSizePixel = 0
+next2.Position = UDim2.new(0.550000012, 0, 0.710437715, 0)
+next2.Size = UDim2.new(0, 88, 0, 34)
+next2.Visible = false
+next2.Font = Enum.Font.SourceSans
+next2.Text = "next page"
+next2.TextColor3 = Color3.fromRGB(255, 255, 255)
+next2.TextScaled = true
+next2.TextSize = 14.000
+next2.TextWrapped = true
+
 -- Scripts:
 
-local function GFWP_fake_script() -- Frame.LocalScript 
+local function DVXGJNO_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	t = script.Parent
@@ -199,16 +310,16 @@ local function GFWP_fake_script() -- Frame.LocalScript
 	t.Archivable = true
 	t.Active = true
 end
-coroutine.wrap(GFWP_fake_script)()
-local function RKKPYII_fake_script() -- spawn.LocalScript 
+coroutine.wrap(DVXGJNO_fake_script)()
+local function ITPZAZ_fake_script() -- spawn.LocalScript 
 	local script = Instance.new('LocalScript', spawn)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91, 3, -26)
 	end)
 end
-coroutine.wrap(RKKPYII_fake_script)()
-local function MFSJSBL_fake_script() -- drop.LocalScript 
+coroutine.wrap(ITPZAZ_fake_script)()
+local function MKFCYE_fake_script() -- drop.LocalScript 
 	local script = Instance.new('LocalScript', drop)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -216,8 +327,8 @@ local function MFSJSBL_fake_script() -- drop.LocalScript
 		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
 	end)
 end
-coroutine.wrap(MFSJSBL_fake_script)()
-local function BZZBHF_fake_script() -- tptotools.local 
+coroutine.wrap(MKFCYE_fake_script)()
+local function IKWYQ_fake_script() -- tptotools.local 
 	local script = Instance.new('LocalScript', tptotools)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -230,8 +341,8 @@ local function BZZBHF_fake_script() -- tptotools.local
 	end)
 	
 end
-coroutine.wrap(BZZBHF_fake_script)()
-local function LFUGZG_fake_script() -- dropall.LocalScript 
+coroutine.wrap(IKWYQ_fake_script)()
+local function VAONI_fake_script() -- dropall.LocalScript 
 	local script = Instance.new('LocalScript', dropall)
 
 	
@@ -249,8 +360,8 @@ local function LFUGZG_fake_script() -- dropall.LocalScript
 	end)
 	
 end
-coroutine.wrap(LFUGZG_fake_script)()
-local function LXAYIN_fake_script() -- tpall.local 
+coroutine.wrap(VAONI_fake_script)()
+local function MLHUBSE_fake_script() -- tpall.local 
 	local script = Instance.new('LocalScript', tpall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -270,9 +381,9 @@ local function LXAYIN_fake_script() -- tpall.local
 	end)
 	
 end
-coroutine.wrap(LXAYIN_fake_script)()
-local function QAZF_fake_script() -- next.local 
-	local script = Instance.new('LocalScript', next)
+coroutine.wrap(MLHUBSE_fake_script)()
+local function IBOKD_fake_script() -- next1.local 
+	local script = Instance.new('LocalScript', next1)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent["tp all"].Visible = false
@@ -280,14 +391,18 @@ local function QAZF_fake_script() -- next.local
 		script.Parent.Parent["drop all"].Visible = false
 		script.Parent.Parent.dupe.Visible = false
 		script.Parent.Parent["tp to tools"].Visible = false
-		script.Parent.Parent.page.Text = "Attack"
+		script.Parent.Parent.page.Text = "Chat attack"
 		script.Parent.Visible = false
 		script.Parent.Parent.previous1.Visible = true
+		script.Parent.Parent["chat spy"].Visible = true
+		script.Parent.Parent.ddos.Visible = true
+		script.Parent.Parent.lagger.Visible = true
+		script.Parent.Parent.lag2.Visible = true
 	end)
 	
 end
-coroutine.wrap(QAZF_fake_script)()
-local function PGWXJ_fake_script() -- dupe.LocalScript 
+coroutine.wrap(IBOKD_fake_script)()
+local function MGKZAZO_fake_script() -- dupe.LocalScript 
 	local script = Instance.new('LocalScript', dupe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -302,8 +417,8 @@ local function PGWXJ_fake_script() -- dupe.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PGWXJ_fake_script)()
-local function XAKTZ_fake_script() -- previous1.local 
+coroutine.wrap(MGKZAZO_fake_script)()
+local function ALZD_fake_script() -- previous1.local 
 	local script = Instance.new('LocalScript', previous1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -315,7 +430,109 @@ local function XAKTZ_fake_script() -- previous1.local
 		script.Parent.Parent["tp to tools"].Visible = true
 		script.Parent.Visible = false
 		script.Parent.Parent.next.Visible = true
+		script.Parent.Parent["chat spy"].Visible = false
+		script.Parent.Parent.ddos.Visible = false
+		script.Parent.Parent.lagger.Visible = false
 	end)
 	
 end
-coroutine.wrap(XAKTZ_fake_script)()
+coroutine.wrap(ALZD_fake_script)()
+local function ACCFS_fake_script() -- chatspy.LocalScript 
+	local script = Instance.new('LocalScript', chatspy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Spy/main/Chat%20Spy"))()
+	end)
+end
+coroutine.wrap(ACCFS_fake_script)()
+local function YXMX_fake_script() -- ddos.LocalScript 
+	local script = Instance.new('LocalScript', ddos)
+
+	local isSpamming = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if not isSpamming then
+			isSpamming = true
+			while isSpamming do
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»", "All")
+				wait(2.9)
+			end
+		else
+			isSpamming = false
+		end
+	end)
+end
+coroutine.wrap(YXMX_fake_script)()
+local function MTHLTY_fake_script() -- lagger.LocalScript 
+	local script = Instance.new('LocalScript', lagger)
+
+	local isSpamming = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if not isSpamming then
+			isSpamming = true
+			while isSpamming do
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»", "All")
+				wait(2.9)
+			end
+		else
+			isSpamming = false
+		end
+	end)
+end
+coroutine.wrap(MTHLTY_fake_script)()
+local function HHGPCJ_fake_script() -- chatspy_2.LocalScript 
+	local script = Instance.new('LocalScript', chatspy_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Spy/main/Chat%20Spy"))()
+	end)
+end
+coroutine.wrap(HHGPCJ_fake_script)()
+local function CAUUWJW_fake_script() -- blur.LocalScript 
+	local script = Instance.new('LocalScript', blur)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.Camera.Blur:Destroy()
+	end)
+end
+coroutine.wrap(CAUUWJW_fake_script)()
+local function IVKU_fake_script() -- lag2.LocalScript 
+	local script = Instance.new('LocalScript', lag2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Message = "⛓" 
+		local Unicode = " "
+		Message = Message .. Unicode:rep(200 - #Message)
+	
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local SayMessageRequest = ReplicatedStorage:FindFirstChild("SayMessageRequest", true)
+	
+		if SayMessageRequest then
+			for i = 1, 7 do
+				SayMessageRequest:FireServer(Message, "All")
+			end
+		end
+	end)
+end
+coroutine.wrap(IVKU_fake_script)()
+local function IBGBY_fake_script() -- next2.local 
+	local script = Instance.new('LocalScript', next2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["tp all"].Visible = false
+		script.Parent.Parent.drop.Visible = false
+		script.Parent.Parent["drop all"].Visible = false
+		script.Parent.Parent.dupe.Visible = false
+		script.Parent.Parent["tp to tools"].Visible = false
+		script.Parent.Parent.page.Text = "Ladder"
+		script.Parent.Visible = false
+		script.Parent.Parent.previous1.Visible = false
+		script.Parent.Parent["chat spy"].Visible = false
+		script.Parent.Parent.ddos.Visible = false
+		script.Parent.Parent.lagger.Visible = false
+		script.Parent.Parent.lag2.Visible = false
+	end)
+	
+end
+coroutine.wrap(IBGBY_fake_script)()
