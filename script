@@ -302,7 +302,7 @@ next2.TextWrapped = true
 
 -- Scripts:
 
-local function DVXGJNO_fake_script() -- Frame.LocalScript 
+local function VYRF_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	t = script.Parent
@@ -310,16 +310,16 @@ local function DVXGJNO_fake_script() -- Frame.LocalScript
 	t.Archivable = true
 	t.Active = true
 end
-coroutine.wrap(DVXGJNO_fake_script)()
-local function ITPZAZ_fake_script() -- spawn.LocalScript 
+coroutine.wrap(VYRF_fake_script)()
+local function XHUGFKL_fake_script() -- spawn.LocalScript 
 	local script = Instance.new('LocalScript', spawn)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91, 3, -26)
 	end)
 end
-coroutine.wrap(ITPZAZ_fake_script)()
-local function MKFCYE_fake_script() -- drop.LocalScript 
+coroutine.wrap(XHUGFKL_fake_script)()
+local function GCPITHH_fake_script() -- drop.LocalScript 
 	local script = Instance.new('LocalScript', drop)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -327,8 +327,8 @@ local function MKFCYE_fake_script() -- drop.LocalScript
 		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.workspace
 	end)
 end
-coroutine.wrap(MKFCYE_fake_script)()
-local function IKWYQ_fake_script() -- tptotools.local 
+coroutine.wrap(GCPITHH_fake_script)()
+local function CXPDH_fake_script() -- tptotools.local 
 	local script = Instance.new('LocalScript', tptotools)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -341,8 +341,8 @@ local function IKWYQ_fake_script() -- tptotools.local
 	end)
 	
 end
-coroutine.wrap(IKWYQ_fake_script)()
-local function VAONI_fake_script() -- dropall.LocalScript 
+coroutine.wrap(CXPDH_fake_script)()
+local function CMKIVSS_fake_script() -- dropall.LocalScript 
 	local script = Instance.new('LocalScript', dropall)
 
 	
@@ -360,8 +360,8 @@ local function VAONI_fake_script() -- dropall.LocalScript
 	end)
 	
 end
-coroutine.wrap(VAONI_fake_script)()
-local function MLHUBSE_fake_script() -- tpall.local 
+coroutine.wrap(CMKIVSS_fake_script)()
+local function CEQMRI_fake_script() -- tpall.local 
 	local script = Instance.new('LocalScript', tpall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -381,8 +381,8 @@ local function MLHUBSE_fake_script() -- tpall.local
 	end)
 	
 end
-coroutine.wrap(MLHUBSE_fake_script)()
-local function IBOKD_fake_script() -- next1.local 
+coroutine.wrap(CEQMRI_fake_script)()
+local function KMSLNU_fake_script() -- next1.local 
 	local script = Instance.new('LocalScript', next1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -401,8 +401,8 @@ local function IBOKD_fake_script() -- next1.local
 	end)
 	
 end
-coroutine.wrap(IBOKD_fake_script)()
-local function MGKZAZO_fake_script() -- dupe.LocalScript 
+coroutine.wrap(KMSLNU_fake_script)()
+local function EFSYVX_fake_script() -- dupe.LocalScript 
 	local script = Instance.new('LocalScript', dupe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -417,8 +417,8 @@ local function MGKZAZO_fake_script() -- dupe.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MGKZAZO_fake_script)()
-local function ALZD_fake_script() -- previous1.local 
+coroutine.wrap(EFSYVX_fake_script)()
+local function QSVUC_fake_script() -- previous1.local 
 	local script = Instance.new('LocalScript', previous1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -436,16 +436,16 @@ local function ALZD_fake_script() -- previous1.local
 	end)
 	
 end
-coroutine.wrap(ALZD_fake_script)()
-local function ACCFS_fake_script() -- chatspy.LocalScript 
+coroutine.wrap(QSVUC_fake_script)()
+local function WKWH_fake_script() -- chatspy.LocalScript 
 	local script = Instance.new('LocalScript', chatspy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Spy/main/Chat%20Spy"))()
 	end)
 end
-coroutine.wrap(ACCFS_fake_script)()
-local function YXMX_fake_script() -- ddos.LocalScript 
+coroutine.wrap(WKWH_fake_script)()
+local function YSXYVR_fake_script() -- ddos.LocalScript 
 	local script = Instance.new('LocalScript', ddos)
 
 	local isSpamming = false
@@ -454,7 +454,7 @@ local function YXMX_fake_script() -- ddos.LocalScript
 		if not isSpamming then
 			isSpamming = true
 			while isSpamming do
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»", "All")
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("____________________________________________________________________________________________________________________________________________________________________________________________________", "All")
 				wait(2.9)
 			end
 		else
@@ -462,8 +462,8 @@ local function YXMX_fake_script() -- ddos.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YXMX_fake_script)()
-local function MTHLTY_fake_script() -- lagger.LocalScript 
+coroutine.wrap(YSXYVR_fake_script)()
+local function HITJ_fake_script() -- lagger.LocalScript 
 	local script = Instance.new('LocalScript', lagger)
 
 	local isSpamming = false
@@ -480,24 +480,24 @@ local function MTHLTY_fake_script() -- lagger.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MTHLTY_fake_script)()
-local function HHGPCJ_fake_script() -- chatspy_2.LocalScript 
+coroutine.wrap(HITJ_fake_script)()
+local function VHVUFLC_fake_script() -- chatspy_2.LocalScript 
 	local script = Instance.new('LocalScript', chatspy_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Spy/main/Chat%20Spy"))()
 	end)
 end
-coroutine.wrap(HHGPCJ_fake_script)()
-local function CAUUWJW_fake_script() -- blur.LocalScript 
+coroutine.wrap(VHVUFLC_fake_script)()
+local function LKTBZ_fake_script() -- blur.LocalScript 
 	local script = Instance.new('LocalScript', blur)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Workspace.Camera.Blur:Destroy()
 	end)
 end
-coroutine.wrap(CAUUWJW_fake_script)()
-local function IVKU_fake_script() -- lag2.LocalScript 
+coroutine.wrap(LKTBZ_fake_script)()
+local function JBVP_fake_script() -- lag2.LocalScript 
 	local script = Instance.new('LocalScript', lag2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -515,8 +515,8 @@ local function IVKU_fake_script() -- lag2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IVKU_fake_script)()
-local function IBGBY_fake_script() -- next2.local 
+coroutine.wrap(JBVP_fake_script)()
+local function WVCM_fake_script() -- next2.local 
 	local script = Instance.new('LocalScript', next2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -535,4 +535,4 @@ local function IBGBY_fake_script() -- next2.local
 	end)
 	
 end
-coroutine.wrap(IBGBY_fake_script)()
+coroutine.wrap(WVCM_fake_script)()
