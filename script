@@ -333,7 +333,7 @@ local function CXPDH_fake_script() -- tptotools.local
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local tool = game.Workspace:FindFirstChildOfClass("Tool")
-		if tool then -- Проверяем, нашли ли мы инструмент
+		if tool then 
 			local position = tool.Handle.CFrame.Position -- Получаем позицию ручки инструмента
 			local torso = game.Players.LocalPlayer.Character.Humanoid.Torso
 			torso.CFrame = CFrame.new(position) -- Устанавливаем позицию торса
@@ -472,7 +472,7 @@ local function HITJ_fake_script() -- lagger.LocalScript
 		if not isSpamming then
 			isSpamming = true
 			while isSpamming do
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»вё»", "All")
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("____________________________________________________________________________________________________________________________________________________________________________________________________", "All")
 				wait(2.9)
 			end
 		else
