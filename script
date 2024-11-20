@@ -461,9 +461,8 @@ local function MVIZ_fake_script() -- ddos.LocalScript
 				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 				wait(2.9)
 				end
-			end
-		else
-			isRunning = false 
+			else
+				isRunning = false 
 		end
 	end)
 	
